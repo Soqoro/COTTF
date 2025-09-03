@@ -1,0 +1,9 @@
+{
+  "run_id": "R001_clean",
+  "tickers": ["AAPL","TSLA","NVDA","XOM","JPM","PFE"],
+  "dates": {"start":"2024-01-02","end":"2024-02-02","stride_days":1},
+  "analysts": ["market","news","social","fundamentals"],
+  "llm": {"provider":"openai", "deep":"gpt-4o", "quick":"gpt-4o-mini"},
+  "online_tools": true,
+  "seed": 42
+}
